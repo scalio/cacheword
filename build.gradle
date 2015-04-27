@@ -1,26 +1,11 @@
-buildscript {
-    repositories {
-        jcenter()
-    }
-
-    dependencies {
-        classpath 'com.android.tools.build:gradle:1.0.0'
-    }
-}
-
 apply plugin: 'com.android.library'
-
-dependencies {
-    compile 'com.android.support:support-v4:22.0.0'
-}
 
 android {
     compileSdkVersion 22
     buildToolsVersion "22.0.1"
 
     defaultConfig {
-        minSdkVersion 9
-        targetSdkVersion 22
+        minSdkVersion 16
     }
 
     sourceSets.main {
@@ -33,4 +18,9 @@ android {
         assets.srcDirs = ['cachewordlib/assets']
     }
 }
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+}
+
 

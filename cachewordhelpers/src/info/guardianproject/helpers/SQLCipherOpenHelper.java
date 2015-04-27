@@ -1,5 +1,5 @@
 
-package info.guardianproject.cacheword;
+package info.guardianproject.helpers;
 
 import android.content.Context;
 import android.util.Log;
@@ -11,6 +11,8 @@ import net.sqlcipher.database.SQLiteOpenHelper;
 
 import java.lang.reflect.Method;
 import java.nio.CharBuffer;
+
+import info.guardianproject.cacheword.CacheWordHandler;
 
 /**
  * A helper class to manage database creation and version management. You create

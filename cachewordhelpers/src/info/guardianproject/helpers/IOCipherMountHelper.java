@@ -1,8 +1,9 @@
 
-package info.guardianproject.cacheword;
+package info.guardianproject.helpers;
 
 import android.util.Log;
 
+import info.guardianproject.cacheword.CacheWordHandler;
 import info.guardianproject.iocipher.VirtualFileSystem;
 
 import java.io.IOException;

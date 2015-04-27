@@ -1,11 +1,13 @@
 
-package info.guardianproject.cacheword;
+package info.guardianproject.helpers;
 
 import android.content.Context;
 import android.content.SharedPreferences;
 
 import net.sqlcipher.database.SQLiteDatabase;
 import net.sqlcipher.database.SQLiteDatabaseHook;
+
+import info.guardianproject.cacheword.Constants;
 
 /**
  * This hook handles the v2 -> v3 migration for SQLCipher databases
